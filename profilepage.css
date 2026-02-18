@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 40px;
+    background: #0f3460;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 24px;
+    background: linear-gradient(135deg, #7cb3ce 0%, #9d84b7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-left: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #7cb3ce;
+}
+
+.profile-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.profile-card {
+    background: #0f3460;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(124, 179, 206, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #7cb3ce;
+    margin-bottom: 20px;
+}
+
+#username {
+    font-size: 26px;
+    color: #d9c8e8;
+    margin-bottom: 8px;
+}
+
+#bio {
+    font-size: 14px;
+    color: #9ba4b0;
+    margin-bottom: 20px;
+}
+
+.profile-links {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-links li {
+    margin: 10px 0;
+}
+
+.profile-links a {
+    color: #7cb3ce;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.profile-links a:hover {
+    color: #bfacdb;
+}
+
+footer {
+    text-align: center;
+    padding: 12px 0;
+    background: #0f3460;
+    font-size: 13px;
+    color: #9ba4b0;
+}
